@@ -99,7 +99,7 @@ namespace WebApp1_6.Controllers
             _context.SaveChanges();
             TempData["success"] = "Category deleted successfully";
             return RedirectToAction("Index");
-
+            
             //return View(obj);
         }
     }
